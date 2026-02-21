@@ -25,4 +25,6 @@ def transfers(text, width):
 
     return '\n'.join(result)
 
-print(transfers("Пример простого текста", 10))
+text = input()
+width = int(input())
+print(transfers(text,width))
