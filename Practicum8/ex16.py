@@ -9,4 +9,5 @@ def check_brackets(text):
             brackets.pop()
     return len(brackets) == 0
 
-print(check_brackets())
+text = input()
+print(check_brackets(text))
